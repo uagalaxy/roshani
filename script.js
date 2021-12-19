@@ -56,3 +56,17 @@ function preview(element){
             download.setAttribute("href", Link);
         }
 }
+const inputBox = document.querySelector("input");
+// if user press any key and release
+document.querySelector(".iwskd").onclick = ()=>{
+  let userData = inputBox.value;
+  var uhigrfeu = "ujjwalpedi@@";
+    if(userData == uhigrfeu){
+      document.querySelector(".usa").style.display = "none";
+      document.querySelector(".gallery").style.display = "flex";
+    }
+    else{
+      document.querySelector(".gallery").style.display = "none";
+      alert("wrong password")
+    }
+}
